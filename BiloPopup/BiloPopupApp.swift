@@ -9,6 +9,7 @@ import SwiftUI
 
 @main
 struct BiloPopupApp: App {
+    @State private var showAlert = false
     var body: some Scene {
         WindowGroup {
             ContentView()
